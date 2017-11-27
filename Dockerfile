@@ -21,7 +21,7 @@ RUN easy_install pip
 
 RUN pip install supervisor
 
-RUN yum install -y mod_php71w php71w-cli php71w-common php71w-gd php71w-mbstring php71w-mcrypt php71w-mysqlnd php71w-xml php71w-fpm nginx openssl net-tools wget git curl
+RUN yum install -y mod_php71w php71w-cli php71w-common php71w-gd php71w-mbstring php71w-mcrypt php71w-mysqlnd php71w-xml php71w-fpm php71w-pgsql nginx openssl net-tools wget git curl
 
 RUN mkdir /var/www/html -p
 
